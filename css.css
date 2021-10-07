@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(89, 119, 216);
+    
+}
+h1{
+
+    color:rgb(226, 57, 14);
+}
+img{
+    width: 50%;
+    align-items: center;
+}
+table{
+    border: 5px;
+}
