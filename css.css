@@ -1,15 +1,82 @@
 body{
-    background-color:rgb(89, 119, 216);
+    background-color:lightgoldenrodyellow; 
+
+}
+
+
+h1{
+    text-align: center;
+    
+    color:black;
+
+    font-size:80px;
+    text-shadow: 5px 5px rgb(233, 13, 24);
     
 }
-h1{
+.nav-link{
+    float: right;
+    color: black;
+}
 
-    color:rgb(226, 57, 14);
+.nav-link:hover{
+    color:red;
 }
+span > a{
+    color:white;
+
+
+}
+
 img{
-    width: 50%;
-    align-items: center;
+    width: 100%;
+    align-content: center;
+    
 }
-table{
-    border: 5px;
+table.tile-wrap{
+        
+    border: 5px solid green;
+    margin: 0.5em;
+    }
+.tile-wrap{
+    width:100%;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    
+}
+th{
+    color: white;
+    background-color: brown;
+}
+#2,#3{
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+form{
+    background-color: black;
+    color: white;
+    padding:1em;
+}
+input{
+    margin-top: 0.5em;
+}
+textarea{
+    margin-top: 0.5em;
+}
+@media screen and (max-width:768px) {
+    .tile-wrap{
+        width:90%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+    .tile-wrap{
+        width:45%;
+    }
+}
+@media screen and (min-width:1201px) {
+    .tile-wrap{
+        width:30%;
+    }
+    
 }
