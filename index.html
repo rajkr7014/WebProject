@@ -4,62 +4,115 @@
         <link rel="stylesheet" href="css.css">
         <title>Pizza Hut</title>
     </head>
+
     <body>
-        <h1>Pizza Hut</h1>
+    
+        <div class="navbar">
+            <h1>Pizza Hut</h1>
+           <table>
+               <tr id="1">
+                <td><a class="nav-link" href="#about" target="blank">About</a></td>
+                <td><a class="nav-link" href="#contact" target="blank">Contact</a></td>
+                <td><a class="nav-link" href="#Service" target="blank">Service</a></td>
+            </tr>
+            </table>
+           
+        </div>
+           
+
+      <div>
+        
         
             
         <table>
             <tr>
-                <th id="">Pizza Names</th>
-                <th id="">Picture</th>
-                <th id="">Price</th>
+                <th id="2">Pizza Names</th>
+                <th id="2">Picture</th>
+                <th id="2">Price</th>
             </tr>
+        <div tile-wrap>
             <tr>
-                <td>Peppy Paneer</td>
-                <td><img src="Peppy_Paneer.jpg" alt="Peppy Paneer"></td>
-                <td>Rs: 320</td>
+                <td id="3">Peppy Paneer</td>
+                <td id="3"><img src="image/Peppy_Paneer.jpg" alt="Peppy Paneer"></td>
+                <td id="3">Rs: 320</td>
             </tr>
-           
+        </div>
+        <div class="tile-wrap">
+             <tr>
+                <td id="3">Deluxe Veggie</td>
+                <td id="3"><img src="image/Deluxe_Veggie.jpg" alt="Deluxe Veggie"></td>
+                <td id="3">Rs: 280</td>
+            </tr>
+        </div>
+        <div class="tile-wrap">
             <tr>
-                <td>Peppy Paneer</td>
-                <td><img src="Peppy_Paneer.jpg" alt="Peppy Paneer"></td>
-                <td>Rs: 320</td>
+                <td id="3">Farmhouse</td>
+                <td id="3"><img src="image/Farmhouse.jpg" alt="Farmhouse"></td>
+                <td id="3">Rs: 240</td>
             </tr>
+        </div>
+        <div class="tile-wrap">
             <tr>
-                <td>Peppy Paneer</td>
-                <td><img src="Peppy_Paneer.jpg" alt="Peppy Paneer"></td>
-                <td>Rs: 320</td>
+                <td id="3">Fresh Veggie</td>
+                <td id="3"><img src="image/Fresh_Veggie.jpg" alt="Fresh Veggie"></td>
+                <td id="3">Rs: 260</td>
             </tr>
+        </div>
+        <div class="tile-wrap">
             <tr>
-                <td>Peppy Paneer</td>
-                <td><img src="Peppy_Paneer.jpg" alt="Peppy Paneer"></td>
-                <td>Rs: 320</td>
+                <td id="3">Paneer Makhni</td>
+                <td id="3"><img src="image/Paneer_Makhni.jpg" alt="Paneer Makhni"></td>
+                <td id="3">Rs: 300</td>
             </tr>
+        </div>
         </table>
+    </div>
+    <di>
+        <form>
+                <label for="fname">Enter Your Name:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Your Name"><br>
+                <label for="email">Email Address:</label><br>
+                <input type="text" id="email" name="email" placeholder="Your Email"><br>
+            <table>
+                <tr>
+                    <th id="pizza name">Choose Pizza for Delivery:</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="Peppy_Paneer" name="Peppy_Paneer" value="pizza">
+                        <label for="Peppy_Paneer">Peppy Paneer</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Deluxe_Veggie" name="Deluxe_Veggie" value="pizza">
+                        <label for="Deluxe_Veggie">Deluxe Veggie</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="Farmhouse" name="Farmhouse" value="pizza">
+                        <label for="Farmhouse">Farmhouse</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="Fresh_Veggie" name="Fresh_Veggie" value="pizza">
+                    <label for="Fresh_Veggie">Fresh Veggie</label>
+                </td>
+                <td>
+                    <input type="checkbox" id="Paneer_Makhni" name="Paneer_Makhni" value="pizza">
+                    <label for="Paneer_Makhni">Paneer Makhni</label><br>
+                </td>
+                </tr>
+            </table>
+                <label for="phone">Enter Phone No:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Your Phone No."><br>
+
+                <label for="address">Delivery Address:</label><br>
+                <textarea id="address" name="address" rows="5" cols="50" placeholder="Your Address"></textarea><br>
+                
+
+                <button type="submit">Submit</button>
+        </form>
+    </di>
         
         
-        <p>The views and opinions included in this email belong 
-            to their author and do not necessarily mirror the views and 
-            opinions of the <strong>Company</strong>. Our employees are obliged not to make 
-            any defamatory clauses, infringe, or authorize infringement of 
-            any <em>legal right</em>. Therefore, the company will not take any liability
-             for such statements included in emails. In case of any damages or 
-             other liabilities arising, employees are 
-            fully responsible for the content of their emails</p>
-            <ol>
-                <li>Cake</li>
-                <ul>
-                    <li>Vanilla</li>
-                    <li>Marble</li>
-                    <li>Black Forest</li>
-                </ul>
-                <li>Bread</li>
-                <li>Beverages</li>
-            </ol>
+        
+         
     </body>
-    <footer>
-        <a href="https://www.google.co.in/" target="blank">About</a>
-            <a href="https://www.google.co.in/" target="blank">Contact</a>
-            <a href="https://www.google.co.in/" target="blank">Info</a>
-    </footer>
 </html>

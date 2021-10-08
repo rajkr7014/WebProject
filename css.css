@@ -1,15 +1,78 @@
 body{
-    background-color:rgb(89, 119, 216);
+    background-color:lightgoldenrodyellow; 
+
+}
+
+.navbar{
     
+    background-color: darkolivegreen;
+    size: 15em;
 }
 h1{
-
-    color:rgb(226, 57, 14);
+    text-align: center;
+    text-overflow: ellipsis;
+    color:orangered;
+    font-size:50px;
+    text-shadow: 0.5em;
+    padding-bottom: 20px;
 }
+.nav-link{
+    float: right;
+    color: black;
+}
+
+.nav-link:hover{
+    color:red;
+}
+span > a{
+    color:white;
+
+
+}
+
 img{
     width: 50%;
-    align-items: center;
+    align-content: center;
+    align-items: ;
 }
 table{
     border: 5px;
+    margin: 0.5em;
+}
+th{
+    color: white;
+    background-color: brown;
+}
+#2,#3{
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+form{
+    background-color: black;
+    color: white;
+    padding:1em;
+}
+input{
+    margin-top: 0.5em;
+}
+textarea{
+    margin-top: 0.5em;
+}
+@media screen and (max-width:768px) {
+    .tile-wrap{
+        width:90%;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1200px){
+    .tile-wrap{
+        width:45%;
+    }
+}
+@media screen and (min-width:1201px) {
+    .tile-wrap{
+        width:30%;
+    }
+    
 }
